@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Microservico Itaú
+  description: microservice
+  annotations: 
+    github.com/project-slug: testing-backstage-zup/microserviceee
+    backstage.io/github-actions-id: testing-backstage-zup/microserviceee
+spec:
+  type: service
+  lifecycle: experimental
+  owner: joaofilipecb
